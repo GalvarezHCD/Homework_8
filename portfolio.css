@@ -11,8 +11,10 @@ body {
 	margin: 0;
 }
 
+/* NAVIGATION */
+
 hr {
-	border-top: 1px solid rgb(140, 140, 140);
+	border-top: 1px solid rgb(153, 153, 153, 1);
 }
 
 .nav-items {
@@ -26,23 +28,7 @@ hr {
 	margin-left: 5%;
 }
 
-#Website {
-	/* position: absolute;
-	width: 1920px;
-	height: 1080px; */
-	/* background-color: rgba(255,255,255,1);
-	overflow: scroll; */
-}
-
-/* NAVIGATION */
-
 #Work {
-	/* left: 193px;
-	top: 37px;
-	position: absolute;
-	overflow: visible;
-	width: 71px;
-	height: 28px; */
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
@@ -52,18 +38,13 @@ hr {
 }
 
 #About_Me {
-	/* left: 303px;
-	top: 37px;
-	position: absolute;
-	overflow: visible;
-	width: 131px;
-	height: 33px; */
+	text-decoration: none;
 	text-align: left;
 	font-family: Helvetica Neue;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
-	color: rgba(153,153,153,1);
+	color: rgba(100,100,100,1);
 }
 
 #About_Me:hover {
@@ -71,36 +52,18 @@ hr {
 }
 
 #Play {
-	/* text-decoration: none;
-	left: 473px;
-	top: 37px;
-	position: absolute;
-	overflow: visible;
-	width: 66px;
-	height: 28px; */
 	text-decoration: none;
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 28px;
-	color: rgba(153,153,153,1);
+	color: rgba(100,100,100,1);
 }
 
 #Play:hover {
 	color:black;
 }
-
-
-/* .Ruler {
-	overflow: visible;
-	position: absolute;
-	width: 1535px;
-	height: 2px;
-	left: 192.5px;
-	top: 79.5px;
-	transform: matrix(1,0,0,1,0,0);
-} */
 
 /* HEADING */
 
@@ -128,12 +91,6 @@ hr {
 }
 
 #Introduction {
-	/* left: 193px;
-	top: 339px;
-	position: absolute;
-	overflow: visible;
-	width: 1535px;
-	height: 28px; */
 	text-align: center;
 	font-family: Helvetica;
 	font-style: normal;
@@ -145,12 +102,7 @@ hr {
 }
 
 #wave {
-	/* position: absolute; */
 	width: 80px;
-	/* height: 80px;
-	left: 1260px;
-	top: 210px; */
-	/* overflow: visible; */
 }
 
 .contactImgs {
@@ -161,30 +113,16 @@ hr {
 }
 
 #linkedin {
-	/* position: absolute; */
 	width: 20px;
-	/* height: 20px;
-	left: 870.72px;
-	top: 424px;
-	overflow: visible; */
 }
 
 #youtube {
-	/* position: absolute; */
 	width: 28.562px;
-	/* height: 20px;
-	left: 945.719px;
-	top: 424px;
-	overflow: visible; */
 }
 
 #envelope {
-	/* position: absolute; */
 	width: 30.769px;
-	/* height: 20px;
-	left: 1029px;
-	top: 424px;
-	overflow: visible; */
+	
 }
 
 /* SAMPLE */
@@ -207,22 +145,7 @@ hr {
     justify-content: space-around;
 }
 
-/* .bubble {
-	position: absolute;
-	overflow: visible;
-	width: 921px;
-	height: 467px;
-	left: 807px;
-	top: 586px;
-} */
-
 #Title {
-	/* left: 879px;
-	top: 672px;
-	position: absolute;
-	overflow: visible;
-	width: 711px;
-	height: 40px; */
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
@@ -232,29 +155,15 @@ hr {
 }
 
 #Information {
-	/* left: 879px;
-	top: 739px;
-	position: absolute;
-	overflow: visible;
-	width: 711px;
-	height: 25px; */
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 25px;
-	color: rgba(153,153,153,1);
+	color: rgba(100,100,100,1);
 }
 
 #Description {
-	/* left: 879px;
-	top: 798px;
-	position: absolute;
-	overflow: visible;
-	width: 711px;
-	height: 105px;
-	line-height: 40px;
-	margin-top: -7.5px; */
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
@@ -264,14 +173,6 @@ hr {
 }
 
 #View_More {
-	/* left: 879px;
-	top: 937px;
-	position: absolute;
-	overflow: visible;
-	width: 711px;
-	height: 25px;
-	line-height: 40px;
-	margin-top: -7.5px; */
 	text-align: left;
 	font-family: Helvetica;
 	font-style: normal;
@@ -281,22 +182,10 @@ hr {
 	text-decoration: underline;
 }
 
-/* #bubble {
-	fill: rgba(241,241,241,1);
-} */
-
 #casa_barragan {
 	margin-left: 10%;
 	height: 357px;
-	/* position: absolute;
-	width: 170px;
-	height: 357px;
-	left: 416px;
-	top: 637px; */
-	/* overflow: visible; */
 }
-
-
 
 .project {
 	display: flex;
