@@ -60,7 +60,7 @@ function draw() {
       xBall < xPaddle + paddleWidth) &&
       (yBall + (diameter/2) >= yPaddle)) {
     yBall = yBall - 0.5*paddleHeight;
-    xBallChange *= -1;
+    xBallChange *= 1;
     yBallChange *= -1;
     score++;
     ballcolorIndex = ballcolorIndex + 1;
@@ -115,7 +115,7 @@ function draw() {
 
 function mouseClicked() {
   if (isMouseInsideText('Portfolio', (windowWidth - 188), 30)) {
-    window.open('/portfolio.html', '_blank');
+    window.open('http://www.gabriel-alvarez.xyz', '_blank');
   }
 }
 
