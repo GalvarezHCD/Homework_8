@@ -115,7 +115,7 @@ function draw() {
 
 function mouseClicked() {
   if (isMouseInsideText('Portfolio', (windowWidth - 188), 30)) {
-    window.open('http://www.gabriel-alvarez.xyz', '_blank');
+    window.open('http://www.gabriel-alvarez.me', '_blank');
   }
 }
 
